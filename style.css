@@ -58,8 +58,11 @@ p {
   z-index: 999;
 }
 .logo {
-  height: 350px;
-  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin: 50px 0px;
   padding: 60px 0px;
 }
 #navbar {
