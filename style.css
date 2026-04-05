@@ -216,3 +216,8 @@ p {
     background-color: rgb(255, 221, 127);
 }
 
+#product1 {
+    width: 100%;
+    height: 180px;
+}
+
