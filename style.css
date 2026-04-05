@@ -96,7 +96,7 @@ p {
 /*Hero Section*/
 #hero {
   background-image: url("asset/hero_banner.avif");
-  height: 90vh;
+  height: 78vh;
   width: 100%;
   background-size: cover;
   background-position: top 25% right 0;
@@ -105,7 +105,6 @@ p {
   flex-direction: column;
   align-items: flex-end;
   justify-content: end;
-    
 }
 
 #hero {
@@ -113,13 +112,15 @@ p {
 }
 #hero .btn-shop {
   position: absolute;
-  bottom: 120px; 
-  left: 200px;
+  bottom: 80px;
+  left: 170px;
 
   padding: 12px 28px;
   border: 1px solid #1c1c1c;
   border-radius: 10px;
-  color: #1c1c1c;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 2px;
@@ -129,8 +130,8 @@ p {
 }
 
 #hero .btn-shop:hover {
-  background-color: #1c1c1c;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /*feature strip*/
@@ -211,7 +212,7 @@ p {
 #feattag .fe-box:nth-child(5) h6 {
   background-color: rgb(255, 221, 127);
 }
- 
+
 /*Products design*/
 
 #product1 {
@@ -243,7 +244,7 @@ p {
   border: 1px solid #d6d6d6;
   border-radius: 20px;
 }
-#product1 .products .descriptions{
+#product1 .products .descriptions {
   text-align: start;
   padding: 10px 0;
 }
@@ -251,7 +252,7 @@ p {
   color: #606063;
   font-size: 12px;
 }
-#product1 .products .descriptions h4{
+#product1 .products .descriptions h4 {
   padding-top: 4px;
   color: rgb(102, 0, 255);
   font-size: 20px;
@@ -261,7 +262,7 @@ p {
   color: #f5c518;
   font-size: 12px;
 }
-#product1 .products .cart{
+#product1 .products .cart {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -274,8 +275,41 @@ p {
   right: 20px;
   bottom: 20px;
 }
-#banner #b1 {
+#banner {
   width: 100%;
-  height: 20vh;
-  object-fit: cover;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#banner h4 {
+  color: #1a2a44;
+  font-size: 30px;
+}
+#banner h2 {
+  color: #1a2a44;
+  font-size: 40px;
+  padding: 20px 0;
+}
+#banner h2 span {
+  color: rgb(255, 0, 0);
+}
+#banner #btn {
+  padding: 12px 28px;
+  border: 1px solid #1c1c1c;
+  border-radius: 10px;
+  color: #1c1c1c;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  background: transparent;
+  transition: all 0.3s ease;
+}
+#banner #btn:hover {
+  background-color: #1c1c1c;
+  color: #fff;
 }
