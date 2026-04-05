@@ -335,6 +335,7 @@ p {
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
+  line-height: 25px;
 }
 #updates p span{
   color: #f5c518;
@@ -391,4 +392,83 @@ p {
   color: #e8f6ea;
   font-size: 18px;
   font-weight: 500;
+}
+
+/*single product page*/
+
+#pro-detail{
+  display: flex;
+  margin-top: 20px;
+}
+#pro-detail .spro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+.group-img{
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 2px;
+}
+.img-item{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#pro-detail .spro-detail{
+  width: 50%;
+  padding-top: 30px;;
+}
+#pro-detail .spro-detail  h4{
+  padding: 40px 0 10px 0;
+}
+#pro-detail .spro-detail  h2{
+  padding: 15px 0 20px 0;
+}
+#pro-detail .spro-detail select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#pro-detail .spro-detail input{
+  width: 70px;
+  height: 42px;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #1c1c1c;
+  border-radius: 3px;
+}
+#pro-detail .spro-detail input:focus{
+  outline: none;
+  border-color: #088178;
+}
+#pro-detail .spro-detail #sbtn{
+  padding: 12px 28px;
+  border: 1px solid #1c1c1c;
+  border-radius: 10px;
+  color: #1c1c1c;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  background: transparent;
+  transition: all 0.3s ease;
+}
+#pro-detail .spro-detail #sbtn:hover {
+  background-color: #088178;
+  color: #fff;
+  cursor: pointer;
+}
+#pro-detail .spro-detail span{
+  line-height: 25px;
+}
+
+.funny {
+  margin-top: 10%;
+  padding: 0px 50px;
+  font-size: 54px;
+  text-align: center;
+  text-shadow: #ff0000 2px 2px 4px;
+  line-height: 90px;
 }
