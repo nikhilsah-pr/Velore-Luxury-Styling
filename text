@@ -11,3 +11,26 @@
   object-fit: cover;
 }
 <HTML><video id="hebn" src="https://diorama.dam-broadcast.com/pm_11872_1341_1341774-8nmq9v3kv9-ori.webm" autoplay muted loop></video></HTML>
+
+#navbar .active{
+  font-weight: 500;
+  transition: all 0.3s ease;
+    position: relative;
+}
+#navbar .active::after{
+  content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+  transition: all 0.3s ease;
+
+}
+#navbar .active:hover{
+  color: rgb(255, 255, 255);
+}
+#navbar .active:hover::after{
+  width: 100%;
+}
