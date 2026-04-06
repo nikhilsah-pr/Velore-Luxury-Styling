@@ -25,7 +25,6 @@ Run the following commands in your terminal:
 <br>
 --->  cd Velore-Luxury-Styling
 <br>
-
 --->  code .
 
 ---
