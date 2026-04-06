@@ -21,8 +21,11 @@ Create a pull request
 
 Run the following commands in your terminal:
 
---->  git clone https://github.com/nikhilsah-pr/Velore-Luxury-Styling.git
+--->  git clone https://github.com/nikhilsah-pr/Velore-Luxury-Styling.git 
+<br>
 --->  cd Velore-Luxury-Styling
+<br>
+
 --->  code .
 
 ---
