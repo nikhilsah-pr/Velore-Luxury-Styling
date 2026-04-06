@@ -6,20 +6,24 @@ The interface is crafted to resemble real-world platforms like Myntra and Amazon
 
 ---
 
-## ✨ Website Appearance & Experience
+## ⚠️ Important (Read Carefully)
 
-VELORÉ delivers a visually rich and structured experience:
+👉 PLEASE WORK USING BRANCHES ONLY
+❌ DO NOT PUSH DIRECTLY TO MAIN BRANCH
 
-* 🎯 **Elegant Hero Section** with call-to-action ("Shop Now")
-* 🏷️ **Scrolling Sale Strip** for promotional highlights
-* 🛍️ **Product Grid Layout** (Featured + New Arrivals)
-* ⭐ **Product Cards** with ratings, pricing, and hover effects
-* 📦 **Single Product Page** with image gallery and details
-* 🧭 **Sticky Navigation Bar** for smooth browsing
-* 🎨 **Consistent Color Palette** (dark luxury + soft contrast)
-* 💬 **Savage/Fun Placeholder Texts** for personality
-* 📩 **Newsletter Section** for engagement
-* 📱 **Basic Responsive Structure (needs improvement)**
+Always:
+
+Create a new branch
+Work on your feature
+Push to that branch
+Create a pull request
+💻 How to Clone This Repo
+
+Run the following commands in your terminal:
+
+git clone https://github.com/nikhilsah-pr/Velore-Luxury-Styling.git
+cd Velore-Luxury-Styling
+code .
 
 ---
 
@@ -33,17 +37,6 @@ VELORÉ delivers a visually rich and structured experience:
   * About
   * Contact
   * Cart
-
-* Clean and reusable CSS structure
-
-* FontAwesome integration for icons
-
-* Organized sections (Hero, Products, Banner, Updates, Footer)
-
-* Hover animations and UI interactions
-
-* Static navigation system
-
 ---
 
 # ⚠️ Frontend Improvements (To Be Implemented)
